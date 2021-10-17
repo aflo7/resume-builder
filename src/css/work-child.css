@@ -1,0 +1,18 @@
+.company-text-2 {
+  font-size: 10pt;
+  width: 140px;
+  height: 25px;
+  line-height: 20px;
+  background-color: rgb(180, 180, 180);
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-overflow: clip;
+}
+
+
+.work-component-wrapper {
+  background-color: gray;
+  margin-bottom: 5px;
+  padding: 5px;
+}

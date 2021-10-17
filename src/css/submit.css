@@ -1,0 +1,50 @@
+.phone-wrapper,
+.email-wrapper,
+.name-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: inherit;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.personal-info {
+  margin: 0 auto;
+  background-color: lightgray;
+  width: 600px;
+  font-size: 14pt;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  color: black;
+}
+
+.submit-info {
+  width: 600px;
+  margin: 0 auto;
+  font-size: 14pt;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: lightgray;
+  color: black;
+  padding: 2px;
+}
+
+.print-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.school-input {
+  width: 300px;
+}

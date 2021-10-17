@@ -1,0 +1,36 @@
+.work-parent-wrapper {
+  margin: 0 auto;
+  width: 600px;
+  margin-top: 15px;
+  font-size: 12pt;
+}
+
+.company-sub-wrapper {
+  display: flex;
+  flex-direction: row;
+  font-size: 14pt;
+  color: black;
+  justify-content: space-between;
+  padding: 2px;
+}
+
+.company-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14pt;
+  background-color: lightgray;
+  color: black;
+  padding: 2px;
+
+}
+
+.work-title {
+  font-size: 18pt;
+  text-align: center;
+  color: black;
+}
+
+.add-work-btn {
+  width: 600px;
+}

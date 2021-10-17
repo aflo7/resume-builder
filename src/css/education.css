@@ -1,0 +1,83 @@
+.school-wrapper,
+.degree-wrapper,
+.start-date-wrapper,
+.end-date-wrapper {
+  display: flex;
+  flex-direction: row;
+  font-size: 14pt;
+  color: black;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.school-text-2,
+.degree-text-2,
+.start-date-text-2,
+.end-date-text-2 {
+  font-size: 10pt;
+  width: 140px;
+  height: 25px;
+  line-height: 20px;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-overflow: clip;
+}
+
+.education-output {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edu-component-wrapper {
+  width: 100%;
+  background-color: gray;
+  margin-bottom: 5px;
+}
+
+.education-title {
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 18pt;
+  color: black;
+}
+
+.education-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.delete {
+  background-color: lightcoral;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  width: 80px;
+  text-align: center;
+}
+
+.update {
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  width: 80px;
+  text-align: center;
+}
+
+.button-wrapper {
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.edu-wrapper {
+  margin-top: 10px;
+}
